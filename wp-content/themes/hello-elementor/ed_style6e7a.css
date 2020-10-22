@@ -1,0 +1,183 @@
+/*------------------------------
+-------STAYLANOC BY EDGAR-------
+------------------------------*/
+
+#map {height: 350px;width: 100%;}
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+.gmnoprint a, .gmnoprint span, .gm-style-cc {display:none;}
+.gmnoprint div {background:none !important;}
+.btn_show_map {
+    width: 100%;
+    margin-bottom: -2px;
+    color: #C4B583 !important;
+    border: 2px solid #F8D670;
+    background: none;
+    border-radius: 0;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 9px 10px;
+}
+.active_m_btn,
+.btn_show_map:hover,
+.btn_show_map:focus{
+    background-color: #F8D670;
+    text-decoration: none;
+    color: #000 !important;
+    outline: none;
+}
+
+@media (max-width: 767px){
+	#map {height: 300px;}
+	.btn_show_map {
+	    font-size: 12px;
+	    padding: 9px 10px;
+	    width: 150px;
+	    font-weight: 500;
+	}
+}
+
+/*CONTACT FORM 7 CSS START*/
+.full_wrapper_of_get_card{
+	max-width: 320px;
+}
+.get-field-wrap{
+	position: relative;
+}
+
+.inputText:focus ~ .floating-label,
+.fullf ~ .floating-label{
+  top: 5px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 100%;
+  border: none !important;
+  height: 55px;
+  background: #EBF0FA;
+  padding: 25px 20px 10px 20px !important;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  top: 16px;
+  transition: 0.2s ease all;
+  font-size: 14px;
+}
+
+.get-field-wrap{
+	margin-bottom: 15px;
+	max-width: 320px;
+}
+
+.get_the_card,
+.get_the_card:hover,
+.get_the_card:focus{
+	width: 100%;
+	background: #EFAD00;
+	color: #000;
+	border: none !important;
+	padding: 10px 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.acc_get_card .wpcf7-list-item{
+	margin: 0 0 20px 35px;
+	font-size: 13px;
+}
+
+.acc_get_card{
+	position: relative;
+}
+
+.acc_get_card a{
+	font-weight: 600;
+	color:#000;
+	text-decoration: underline !important;
+}
+
+/* Hide the browser's default checkbox */
+.acc_get_card input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.acc_get_card:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.acc_get_card input:checked ~ .checkmark {
+  background-color: #EFAD00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.acc_get_card input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.acc_get_card .checkmark:after {
+    left: 10px;
+    top: 6px;
+    width: 6px;
+    height: 13px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.wpcf7-response-output {
+    border: none !important;
+    max-width: 320px;
+    width: 100%;
+    margin: 0 !important;
+    background: #EFAD00;
+    color: #000;
+    text-align: center;
+    padding: 10px 15px !important;
+}
+
+.ajax-loader{
+	display: none !important;
+}
+/*CONTACT FORM 7 CSS END*/
+
+
+/*------------------------------
+----VSYO PRCAV SAX DVIJENIN-----
+------------------------------*/
